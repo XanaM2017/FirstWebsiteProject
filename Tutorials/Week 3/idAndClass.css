@@ -1,0 +1,28 @@
+/* body "background - color" makes the whole webpage background a color */
+body{
+    background-color: bisque;
+}
+
+/* doing this all in one div makes all of the divs do this */
+div {
+    color: brown;
+    border: 5px double black;
+    background-color: aqua;
+    padding: 30px;
+    margin-top: 100px; margin-left: 200px;
+    /* width is how big the box itself is */
+    width: 150px;
+    /* text-align: aligns the text on the webpage */
+    text-align: center; 
+}
+/* box one has different text color and background color */
+#boxOne { color: yellow; background-color: green;}
+
+/* Box 5 different border*/
+#box5 {border: 5px solid black; border-radius: 40%;}
+
+/* this is how you do a gradient color */
+#box4{ background-image: linear-gradient(red, yellow);}
+
+/* this is changing the css for class = greenText */
+.greenText {color: red;}

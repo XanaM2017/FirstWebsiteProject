@@ -1,0 +1,60 @@
+:root {
+    /* CSS HEX */
+    --tea-green: #cddb9fff;
+    --tea-green-2: #e2f1afff;
+    --vanilla: #e3e59cff;
+    --flax: #e3d888ff;
+    --coyote: #84714fff;
+    --rose-ebony: #5a3a31ff;
+    --bistre: #31231eff;
+}
+
+/* can add a space after ID to select a specific part of the id */
+/* this is adding css for whole ul bullets */
+#menu ul{
+    background-color: var(--tea-green-2);
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: large;
+    overflow: hidden;
+}
+
+/* this is add css for li items specifically */
+#menu li{
+    float: right;
+}
+
+/* this is adding css for the a tags = links */
+#menu a {
+    background-color: var(--tea-green);
+    padding: 20px;
+    border-left: 2px var(--bistre) solid;
+    display: block;
+    text-decoration: none;
+    color: var(--bistre);
+}
+
+/* this will change the link box color when hovered over */
+#menu a:hover{
+    background-color: var(--vanilla);
+}
+
+#menu #home {
+    float: left;
+    border-right: 2px var(--bistre) solid;
+}
+
+#menu .active {
+    background-color: var(--vanilla);
+}
+
+/* NOTES */
+/* how to change the whole page border: inspect the webpage, click on body, Computed, "margin" --> can then change the css body margin = 0px */
+/* can change bullet types w/ "list-style-type" I.e. lower alpha = lowercase alphabet */
+/* "float" = moves everything inline in one direction */
+/* "overflow" = hides stuff underneath */
+
+
+

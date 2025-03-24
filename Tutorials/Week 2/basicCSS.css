@@ -1,0 +1,45 @@
+/* This is a comment for CSS, ctrl+/ */
+/* This is how you do CSS for paragraph, whatever is in the {}
+is saying that pertains to the paragraph */
+p {
+    color: forestgreen ;
+    font-size: 20px
+}
+
+h1 {
+    background-color: aqua; 
+    /* border properties */
+    border-style: dotted;
+    border-width: 8px;
+    border-color: blueviolet;   
+}
+
+h3 { /* alternate way to do all together, size/style/color */
+    border: 2px dotted black
+}
+
+/* HOVER = when you hover over the disignated thing, it will change the properties.
+ Ex. hover & the background color and text color changes */
+h1:hover {
+    background-color: yellow;
+    color: blanchedalmond;
+}
+
+div{
+    background-color: azure;
+    border: 5px dashed brown;
+    /* adding space inside, "padding" increase the space between the content and it's border */
+    padding: 15px;
+    padding-left: 35px;
+    /* adding space outside */
+    margin: 50px
+
+}
+div:hover {
+    background-color: blue;
+    color: white;
+    height: 200px;
+    width: 400px;
+    rotate: 90deg;
+/* this ^ is all altering what the div looks like when hovered over */
+}

@@ -1,0 +1,14 @@
+/* doing css in the body does it for the whole webpage, like center aligning all the text */
+body{
+    background-color: beige;
+    color: brown;
+    text-align: center;
+}
+.mainSections{
+    background-color:blanchedalmond;
+    color: rgb(218, 122, 32);
+    border: 10px double black;
+    padding: 5px;
+    width: 200px;
+    margin: auto;
+}

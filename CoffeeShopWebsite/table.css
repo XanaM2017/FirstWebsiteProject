@@ -1,0 +1,38 @@
+/* Menu Page */
+:root {
+    /* CSS HEX */
+    --tea-green: #cddb9fff;
+    --tea-green-2: #e2f1afff;
+    --vanilla: #e3e59cff;
+    --flax: #e3d888ff;
+    --coyote: #84714fff;
+    --rose-ebony: #5a3a31ff;
+    --bistre: #31231eff;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+thead { 
+    background-color: var(--tea-green);
+}
+tbody {
+    background-color: var(--tea-green-2);
+    border: 1px var(--rose-ebony) solid;
+}
+th {
+    border: 1px var(--rose-ebony) solid;
+    margin: 0px;
+    padding: 5px;
+}
+
+td {
+    border-right:1px var(--rose-ebony) solid;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

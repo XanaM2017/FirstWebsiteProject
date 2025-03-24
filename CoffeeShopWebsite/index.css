@@ -1,0 +1,47 @@
+/* :root is code that applies to everything, more powerful than body. Use for color palettes eg */
+:root {
+    /* CSS HEX */
+    --tea-green: #cddb9fff;
+    --tea-green-2: #e2f1afff;
+    --vanilla: #e3e59cff;
+    --flax: #e3d888ff;
+    --coyote: #84714fff;
+    --rose-ebony: #5a3a31ff;
+    --bistre: #31231eff;
+}
+
+body {
+    /* when referencing a -- value, have to use a "var" */
+    background-color: var(--rose-ebony);
+    text-align: center;
+    margin: 0px;
+}
+#intro {
+    margin-bottom: 50px;
+    padding: 20px;
+    color: var(--bistre);
+
+}
+.innerBox {
+    background-color: var(--vanilla);
+    margin: 50px;
+    padding: 20px;
+    border: solid 2px black;
+    color: var(--bistre);
+}
+.outerBox {
+    background-color: var(--flax);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: solid 5px gainsboro;
+}
+/* can do margin as either px or % of the page */
+#hours ul{
+    list-style-type: none;
+    text-align: center;
+}
+#menuIntro ul{
+    list-style-type: none;
+}

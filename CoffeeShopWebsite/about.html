@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="index.css">
+        <!-- the following style is specifically for the .imageClass which is the Photos 2 box -->
+        <style> 
+            .imageClass {
+                display: flex;
+                justify-content: space-around;
+                margin: 30px;
+                background-color: whitesmoke;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="menu">
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+            </ul>
+        </div>
+        <div id="aboutIntro" class="outerBox">
+            <h1>About Page</h1>
+            <p>This is the about page on the coffee shop.</p>
+            <p style="display: inline-block;">Alex's Coffee was founded in 2025 in Minneapolis, Minnesota.</p>
+            <img src="images/coffee3.webp" alt="" width="300px" style="display: inline-block;">
+        </div>
+        <div class="outerBox">
+            <img src="images/coffee7.jpg" alt="" width="300px" style="display: inline-block;">
+            <div class="innerBox" style="display: inline-block;">
+                <h2>Minneapolis Location</h2>
+                <p>123 Street, Minneapolis, MN</p>
+            </div>
+        </div>
+        <div id="imageBox" class="outerBox">
+            <h1>Photos</h1>
+            <img src="images/coffee4.jpg" alt="" width="200px" height="200px" style="display: inline-block;">
+            <img src="images/coffee5.webp" alt="" width="200px" height="200px" style="display: inline-block;">
+            <img src="images/coffee6.webp" alt="" width="200px" height="200px" style="display: inline-block;">
+        </div>
+        <div id="imageBox2" class="outerBox">
+            <h1>Photos 2</h1>
+            <div class="imageClass">
+                <img src="images/coffee4.jpg" alt="" width="200px" height="200px">
+                <img src="images/coffee5.webp" alt="" width="200px" height="200px">
+                <img src="images/coffee6.webp" alt="" width="200px" height="200px">
+            </div>
+        </div>
+    </body>
+</html> 

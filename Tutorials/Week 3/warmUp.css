@@ -1,0 +1,9 @@
+div {
+    border: 5px double black;
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    /* width is how big the box itself is */
+    width: 150px;
+    text-align: center;
+}
